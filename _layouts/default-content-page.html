@@ -1,0 +1,25 @@
+---
+layout: default-page
+---
+
+<header>
+
+    {% include header.html %}
+
+    {% include menu.html %}
+
+</header><!-- <<< End Header >>> -->
+
+<div class="page-title">
+    <div class="container clearfix">
+
+        <div class="sixteen columns">
+            <h1>{{ page.title }}</h1>
+        </div>
+
+    </div><!-- End Container -->
+</div><!-- End Page title -->
+
+{{ content }}
+
+{% include footer.html %}

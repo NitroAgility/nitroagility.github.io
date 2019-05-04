@@ -1,0 +1,37 @@
+---
+layout: default-page
+---
+
+<header>
+
+    {% include header.html %}
+
+    {% include menu.html %}
+
+</header><!-- <<< End Header >>> -->
+
+<div class="slider-1 clearfix">
+
+    <div class="flex-container">
+        <div class="flexslider loading">
+            <ul class="slides">
+                <li
+                    style="background:url(images/img/sliders/slider-1/slider-bg-1.jpg) no-repeat;background-position:50% 0">
+
+                    <div class="container">
+                        <div class="sixteen columns contain">
+
+
+                        </div>
+                    </div><!-- End Container -->
+
+                </li><!-- End item -->
+
+            </ul>
+        </div>
+    </div>
+</div><!-- End slider -->
+
+{{ content }}
+
+{% include footer.html %}
