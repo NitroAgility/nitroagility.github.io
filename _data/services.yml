@@ -1,0 +1,31 @@
+services:
+  - title: Agile Delivery
+    description: Project and Product delivery.
+    image: images/services/agile-delivery.png
+    alt_image: agile-delivery
+    url:
+  - title: Software Development
+    description: Bespoke software development.
+    image: images/services/software-development.png
+    alt_image: software-development
+    url:
+  - title: Data Solutions
+    description: Apache echo-system.
+    image: images/services/data-solutions.png
+    alt_image: data-solutions
+    url:
+  - title: DevOps
+    description: DevOps culture and implementation.
+    image: images/services/devops.png
+    alt_image: devops
+    url:
+  - title: Cloud Services
+    description: Journey to cloud and Microservices.
+    image: images/services/cloud-services.png
+    alt_image: cloud-services
+    url:
+  - title: Trainings
+    description: Bespoke trainings.
+    image: images/services/trainings.png
+    alt_image: trainings
+    url:
