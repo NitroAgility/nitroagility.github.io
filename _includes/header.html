@@ -4,14 +4,15 @@
 
             <div class="eight columns">
                 <div class="phone-mail">
-                    <a href="info@nitroagility.com"><i class="icon-envelope-alt"></i> Mail :
-                        info@nitroagility.com</a>
+                    <a href="mailto:{{ site.data.company.contact_details.email }}"><i class="icon-envelope-alt"></i> Mail :
+                        {{ site.data.company.contact_details.email }}</a>
                 </div><!-- End phone-mail -->
             </div>
             <div class="eight columns">
                 <div class="social">
-                    <a href="#"><i class="social_icon-linkedin s-18"></i></a>
-                    <a href="#"><i class="social_icon-twitter s-18"></i></a>
+                    {% for social in site.data.company.social %}
+                    <a href="{{ social.address }}" target="_blank"><i class="{{ social.icon }} s-18"></i></a>
+                    {% endfor %}
                 </div>
             </div><!-- End social-icons -->
 

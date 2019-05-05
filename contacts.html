@@ -14,17 +14,18 @@ key: contacts
         <h3 class="title bottom-2">Contact Info</h3>
 
         <ul class="address-info">
-            <li>xxxx xxxx xxxx</li>
+            <li>{{ site.data.company.contact_details.address }}</li>
         </ul>
 
         <ul class="email-info">
-            <li>info@nitroagility.com </li>
+            <li>{{ site.data.company.contact_details.email }}</li>
         </ul>
 
         <h3 class="title top-2 bottom-2">Social Contact</h3>
         <div class="share-social">
-            <a href="#" target="_blank"><i class="social_icon-twitter s-17 white"></i></a>
-            <a href="#" target="_blank"><i class="social_icon-linkedin s-17 white"></i></a>
+            {% for social in site.data.company.social %}
+            <a href="{{ social.address }}" target="_blank"><i class="{{ social.icon }} s-17 white"></i></a>
+            {% endfor %}
         </div>
 
     </div>

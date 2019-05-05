@@ -5,27 +5,22 @@
 
             <div class="one-third column widget">
                 <a href="index.html">
-                    <img src="images/logo.png" alt="Invention - Creative Responsive Theme" />
+                    <img src="images/logo.png" alt="{{ site.data.company.name }}" />
                 </a>
             </div><!-- End Tweets Widget -->
 
             <div class="one-third column widget most-posts">
                 <h3 class="title">About Us</h3>
-                <p>
-                    Our team of technology professionals are here to help.
-                    Contact us to find out how our team of technology experts can work with you to accelerate
-                    the delivery of your technology initiatives.
-                </p>
+                <p> {{ site.data.company.about_us }} </p>
             </div><!-- End News Widget -->
 
             <div class="one-third column widget">
                 <h3 class="title">Contact Details</h3>
                 <ul class="address-info">
-                    <li>xxxx xxxx xxxx</li>
+                    <li> {{ site.data.company.contact_details.address }} </li>
                 </ul>
-
                 <ul class="email-info">
-                    <li>info@nitroagility.com </li>
+                    <li> <a href="mailto:{{ site.data.company.contact_details.email }}">{{ site.data.company.contact_details.email }}</a> </li>
                 </ul>
             </div><!-- End Subscribe Widget -->
 
@@ -36,17 +31,18 @@
         <div class="container clearfix">
 
             <div class="eight columns">
-                <span class="copyright">© Copyright 2019 Nitro Agility. All Rights Reserved.</span>
+                <span class="copyright">© Copyright 2019 {{ site.data.company.name }}. All Rights Reserved.</span>
             </div><!-- End copyright -->
 
             <div class="eight columns">
                 <di v class="social">
-                    <a href="#"><i class="social_icon-linkedin s-18"></i></a>
-                    <a href="#"><i class="social_icon-twitter s-18"></i></a>
-                </div>
-            </div><!-- End social icons -->
+                    {% for social in site.data.company.social %}
+                    <a href="{{ social.address }}" target="_blank"><i class="{{ social.icon }} s-18"></i></a>
+                    {% endfor %}
+            </div>
+        </div><!-- End social icons -->
 
-        </div><!-- End container -->
+    </div><!-- End container -->
     </div><!-- End footer-top -->
 
 </footer><!-- <<< End Footer >>> -->
