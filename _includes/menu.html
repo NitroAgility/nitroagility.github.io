@@ -13,11 +13,11 @@
             <nav id="menu" class="navigation" role="navigation">
                 <a href="#">Show navigation</a><!-- this appear on small devices -->
                 <ul id="nav">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="services.html">Services</a></li>
-                    <li><a href="trainings.html">Trainings</a></li>
-                    <li><a href="approach.html">Approach</a></li>
-                    <li><a href="contacts.html">Contacts</a></li>
+                    <li {% if page.key == "home" %} class="active" {% endif %}><a href="index.html">Home</a></li>
+                    <li {% if page.key == "services" %} class="active" {% endif %}><a href="services.html">Services</a></li>
+                    <li {% if page.key == "trainings" %} class="active" {% endif %}><a href="trainings.html">Trainings</a></li>
+                    <li {% if page.key == "approach" %} class="active" {% endif %}><a href="approach.html">Approach</a></li>
+                    <li {% if page.key == "contacts" %} class="active" {% endif %}><a href="contacts.html">Contacts</a></li>
             </nav>
         </div><!-- End Menu -->
 
