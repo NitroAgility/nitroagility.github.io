@@ -1,0 +1,99 @@
+mobile_web:
+  agile_delivery:
+    - Scrum & Daily Standup
+    - ITSM & SecOps
+    - CI/CD
+    - Infrastructure as Code
+  team:
+    - Solution Architect (1)
+    - Mobile Developer (2)
+    - Web Developer (2)
+    - Backend Developer (1)
+    - DevOps Engineer (1)
+  skills:
+    - Html5/CSS
+    - React
+    - React Native
+    - JavaScript
+    - GraphQL
+    - Node.JS
+    - Java
+    - MongoDb
+    - RabbitMQ
+    - Circle CI
+    - Fastlane
+    - JFrog
+  story:
+    title: SaaS product accessibile via Web and Mobile
+    image: images/img/blog/single/image-1-2.jpg
+    content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+data_platform:
+  agile_delivery:
+    - Scrum & Daily Standup
+    - CI/CD
+    - Infrastructure as Code
+  team:
+    - Solution/Data Architect (1)
+    - Backend Developer (2)
+    - DevOps Engineer (1)
+  skills:
+    - Java
+    - Python
+    - Apache Kafka
+    - Apache Spark
+    - Elastic Search
+    - Oracle Db
+    - Jenkins
+    - JFrog
+  story:
+    title: Data Platfrom
+    image: images/img/blog/single/image-1-2.jpg
+    content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+cloud_solution:
+  agile_delivery:
+    - Scrum & Daily Standup
+    - ITSM & SecOps
+    - CI/CD
+    - Infrastructure as Code
+  team:
+    - Solution Architect (1)
+    - Cloud Engineer (1)
+    - Backend Developer (2)
+    - DevOps Engineer (1)
+  skills:
+    - AWS
+    - NetCore
+    - Kubernetes
+    - RabbitMQ
+    - SQL Server
+    - Redis
+    - Terraform & Ansible
+    - Team City
+    - JFrog
+  story:
+    title: Cloud Solution
+    image: images/img/blog/single/image-1-2.jpg
+    content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+iot:
+  agile_delivery:
+    - Scrum & Daily Standup
+    - ITSM & SecOps
+    - CI/CD
+    - Infrastructure as Code
+  team:
+    - Solution Architect (1)
+    - Electronic Engineer (1)
+    - FullStack Developer (1)
+    - DevOps Engineer (1)
+  skills:
+    - Angular 6 & TypeScript
+    - Node.Js
+    - ActiveMQ
+    - MongoDb
+    - AWS
+    - Heroku
+    - Raspberry Pi
+  story:
+    title: IoT
+    image: images/img/blog/single/image-1-2.jpg
+    content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
