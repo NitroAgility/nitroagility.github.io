@@ -3,122 +3,51 @@ layout: default-home-page
 title: Home
 ---
 
-<div class="sixteen columns"><hr class="line bottom-3"></div><!-- End line -->
+<div class="sixteen columns">
+    <hr class="line bottom-3">
+</div><!-- End line -->
 
 <div class="services style-1 bottom-2">
     <div class="container clearfix">
-
+        {% for offer in site.data.home.offering %}
         <div class="eight columns item element-2">
             <div class="item">
-                <div class="" style="text-align:center"><img src="images/home/assess.png" alt="" class="pic" /></div>
-                <h3>Assess</h3>
-                <p>Seeking an external perspective can be invaluable, we’ll help you to assess the maturity of your internal practices and tech stack.</p>
+                <div class="" style="text-align:center"><img src="{{ offer.image }}" alt="{{ offer.alt_image }}"
+                        class="pic" /></div>
+                <h3>{{ offer.title }}</h3>
+                <p>{{ offer.description }}</p>
             </div>
         </div><!-- End item -->
-
-        <div class="eight columns item element-2">
-            <div class="item">
-                    <div class="" style="text-align:center"><img src="images/home/build.png" alt="" class="pic" /></div>
-                    <h3>Build</h3>
-                <p>Greenfield projects are always very exciting, we’ll help you to build your technology solution from the ground up.</p>
-            </div>
-        </div><!-- End item -->
-
-        <div class="eight columns item element-2">
-            <div class="item">
-                    <div class="" style="text-align:center"><img src="images/home/evolve.png" alt="" class="pic" /></div>
-                <h3>Evolve</h3>
-                <p>Technology keeps evolving, we’ll help you to upgrade your internal tech stack</p>
-            </div>
-        </div><!-- End item -->
-
-        <div class="eight columns item element-2">
-            <div class="item">
-                    <div class="" style="text-align:center"><img src="images/home/support.png" alt="" class="pic" /></div>
-                <h3>Support</h3>
-                <p>Coding is a never-ending task, we’ll help you to maintain your current internal software stack</p>
-            </div>
-        </div><!-- End item -->
-
+        {% endfor %}
     </div><!-- End Container -->
 </div><!-- End services -->
 
-<div class="sixteen columns"><hr class="line bottom-3"></div><!-- End line -->
+<div class="sixteen columns">
+    <hr class="line bottom-3">
+</div><!-- End line -->
 
 <!-- Start main content -->
 <div class="container main-content clearfix">
-
     <div class="portfolio bottom-3">
-
         <h3 class="title bottom-2">Use Cases</h3>
-
-
         <div class="clearfix"></div>
-
         <div id="contain">
-
             <!-- =================================================== -->
-
-            <!-- item 1 -->
-            <div class="four columns item element-4 Web Animation" data-categories="Web Animation">
-                <a href="single_project_1.html">
-                    <img src="images/img/portfolio/thumb-1.jpg" alt="" class="pic" />
+            {% for usecase in site.data.home.use_cases %}
+            <div class="four columns item element-4">
+                <a href="{{ usecase.url }}">
+                    <img src="{{ usecase.image }}" alt="{{ usecase.alt_image }}" class="pic" />
                     <div class="img-caption">
                         <div class="desc">
-                            <h3>Mobile and Web</h3>
-                            <p>xxxx xxxx xxxx</p><span>+</span>
+                            <h3>{{ usecase.title }}</h3>
+                            <p>{{ usecase.description }}</p><span>+</span>
                         </div>
                     </div><!-- hover effect -->
                 </a>
             </div>
+            {% endfor %}
             <!-- End -->
-
-            <!-- item 2 -->
-            <div class="four columns item element-4 Logo Photography" data-categories="Logo Photography">
-                <a href="single_project_1.html">
-                    <img src="images/img/portfolio/thumb-2.jpg" alt="" class="pic" />
-                    <div class="img-caption">
-                        <div class="desc">
-                            <h3>Migration to Cloud</h3>
-                            <p>xxxx xxxx xxxx</p><span>+</span>
-                        </div>
-                    </div><!-- hover effect -->
-                </a>
-            </div>
-            <!-- End -->
-
-            <!-- item 3 -->
-            <div class="four columns item element-4 Web Photography" data-categories="Web Photography">
-                <a href="single_project_1.html">
-                    <img src="images/img/portfolio/thumb-3.jpg" alt="" class="pic" />
-                    <div class="img-caption">
-                        <div class="desc">
-                            <h3>Data Solution</h3>
-                            <p>xxxx xxxx xxxx</p><span>+</span>
-                        </div>
-                    </div><!-- hover effect -->
-                </a>
-            </div>
-            <!-- End -->
-
-            <!-- item 4 -->
-            <div class="four columns item element-4 Photography Animation" data-categories="Web Photography">
-                <a href="single_project_1.html">
-                    <img src="images/img/portfolio/thumb-4.jpg" alt="" class="pic" />
-                    <div class="img-caption">
-                        <div class="desc">
-                            <h3>Internet of Things</h3>
-                            <p>xxxx xxxx xxxx</p><span>+</span>
-                        </div>
-                    </div><!-- hover effect -->
-                </a>
-            </div>
-            <!-- End -->
-
             <!-- =================================================== -->
-
         </div><!-- End contain-->
-
     </div><!-- End portfolio -->
-
 </div><!-- <<< End Container >>> -->
