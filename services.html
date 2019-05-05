@@ -2,21 +2,39 @@
 layout: default-content-page
 title: Services
 ---
-<div class="services style-1 bottom-3">
-        <div class="container clearfix">
-        
+<!-- Start main content -->
+<div class="container main-content clearfix">
 
+  <div class="two-thirds column bottom-3">
+    <h3 class="title bottom-2">About us</h3>
+    {{ site.data.services.about_us }}
+  </div><!-- End Methodology -->
 
-          {% for service in site.data.services.services %}
-          <div class="one-third column">
-              <div class="item">
-                <div class="circle"><a href="#"><i class="icon-resize-full"></i></a></div>
-                <h3><a href="{{ service.url }}">{{ service.title }}</a></h3>
-                <p>{{ service.description }}</p>
-              </div>
-            </div><!-- End item -->
-          {% endfor %}
-          
-          
-        </div><!-- End Container -->
-      </div><!-- End services -->
+  <div class="one-third column bottom-3">
+    <h3 class="title bottom-2">Why Choose Us?</h3>
+    <ul class="check-list why">
+      {% for reason in site.data.services.why_us %}
+      <li><a href="#">{{ reason }}</a></li>
+      {% endfor %}
+    </ul><!-- End check-list -->
+  </div><!-- End Why Choose Us -->
+
+  <div class="sixteen columns clearfix">
+    <hr class="line bottom-4">
+  </div><!-- End line -->
+
+  <div class="services style-2 bottom-3">
+    {% for service in site.data.services.services %}
+    <div class="one-third column">
+      <div class="item active bottom-4">
+        <div class="circle float-left"><a href="#"><i class="icon-leaf"></i></a></div>
+        <div class="data float-right">
+          <h4><a href="{{ service.url }}">{{ service.title }}</a></h4>
+          <p>{{ service.description }}</p>
+        </div>
+      </div>
+    </div><!-- End item -->
+    {% endfor %}
+  </div><!-- End services -->
+
+</div><!-- <<< End Container >>> -->
