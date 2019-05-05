@@ -1,7 +1,6 @@
 # nitro-website
 nitro-website
 
------------------------------------------------------------------
 NIC ToDo:
 - NITRO
     - Publish website on a temporary link
@@ -15,7 +14,7 @@ NIC ToDo:
     - Configure Google Analytics
     - Add cookies & GDPR pages and acceptance popup
     - Add Images / Icons
-----------------------------------------------------------------
+
 GLN ToDo:
 - Before holidays
     - Confirm with Nicola if we need the Business Insurance and open it (by 19th of May https://www.hiscox.co.uk/)
@@ -40,7 +39,7 @@ GLN ToDo:
     - Replace Waterfall with Lean
     - Rename "Studies" to "Project Examples"
     - Replace "Software House and IT Consulting" with "IT Consulting | Software House"
------------------------------------------------------------------
+
 Designer ToDO:
     - We need to confirm what is the font she has used for the brochure (FORGOTTEN)
     - Currently we have the transparent version of the logo with the black text. We need also to get the version with the white text and transparent background (PNG with transparency)  (FORGOTTEN)
@@ -49,4 +48,3 @@ Designer ToDO:
     - Asses, Build, Evolve, Support icon for the webiste (remove the triangle)  (PNG with transparency)
     - Case studies icons (for both brochure and website): Mobile Web, Cloud Services, Data Platforms, IoT (PNG with transparency)
     - Services (Agile Delivery, Software Development, Data Platforms, DevOps, Cloud Services, Trainings) icons (PNG with transparency)
------------------------------------------------------------------
