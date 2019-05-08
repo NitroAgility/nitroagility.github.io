@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <title>Contact us - Invention | Creative Responsive Theme</title>
+    <meta name="description"
+        content="Invention Theme for corporate and creative sites, responsive and clean layout, more than color skins">
+    <meta name="author" content="Jozoor team">
+
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Main Style -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Color Style -->
+    <link rel="stylesheet" href="css/skins/colors/blue.css" name="colors">
+
+    <!-- Layout Style -->
+    <link rel="stylesheet" href="css/layout/wide.css" name="layout">
+
+    <!-- Style Switcher Box -->
+    <link rel="stylesheet" href="css/switcher/style.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/html5.js"></script>
+  <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+
+<body>
+
+    <div id="wrap" class="boxed">
+
+        <header>
+
+            {% include header.html %}
+
+            {% include menu.html %}
+
+        </header><!-- <<< End Header >>> -->
+
+        <div class="page-title">
+            <div class="container clearfix">
+
+                <div class="sixteen columns">
+                    <h1>{{ page.title }}</h1>
+                </div>
+
+            </div><!-- End Container -->
+        </div><!-- End Page title -->
+
+        {{ content }}
+
+        {% include footer.html %}
+
+    </div><!-- End wrap -->
+
+    <!-- Start JavaScript -->
+    <script src="js/jquery-1.9.1.min.js"></script> <!-- jQuery library -->
+    <script src="js/jquery.easing.1.3.min.js"></script> <!-- jQuery Easing -->
+    <script src="js/jquery-ui/jquery.ui.core.js"></script> <!-- jQuery Ui Core-->
+    <script src="js/jquery-ui/jquery.ui.widget.js"></script> <!-- jQuery Ui Widget -->
+    <script src="js/jquery-ui/jquery.ui.accordion.js"></script> <!-- jQuery Ui accordion-->
+    <script src="js/jquery-cookie.js"></script> <!-- jQuery cookie -->
+    <script src="js/ddsmoothmenu.js"></script> <!-- Nav Menu ddsmoothmenu -->
+    <script src="js/jquery.flexslider.js"></script> <!-- Flex Slider  -->
+    <script src="js/colortip.js"></script> <!-- Colortip Tooltip Plugin  -->
+    <script src="js/tytabs.js"></script> <!-- jQuery Plugin tytabs  -->
+    <script src="js/jquery.ui.totop.js"></script> <!-- UItoTop plugin  -->
+    <script src="js/carousel.js"></script> <!-- jQuery Carousel  -->
+    <script src="js/jquery.isotope.min.js"></script> <!-- Isotope Filtering  -->
+    <script src="js/twitter/jquery.tweet.js"></script> <!-- jQuery Tweets -->
+    <script src="js/jflickrfeed.min.js"></script> <!-- jQuery Flickr -->
+    <script src="js/social-options.js"></script> <!-- social options , twitter, flickr.. -->
+    <script src="js/doubletaptogo.js"></script> <!-- Touch-friendly Script  -->
+    <script src="js/fancybox/jquery.fancybox.js"></script> <!-- jQuery FancyBox -->
+    <script src="js/jquery.sticky.js"></script> <!-- jQuery Sticky -->
+    <script src="js/custom.js"></script> <!-- Custom Js file for javascript in html -->
+    <!-- End JavaScript -->
+
+    <!-- Start Google Map JavaScript -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="js/gmaps.js"></script>
+    <script type="text/javascript">
+        var map;
+        $(document).ready(function () {
+
+            // main directions
+            map = new GMaps({
+                el: '#map', lat: 47.003670, lng: 28.907089, zoom: 13, zoomControl: true,
+                zoomControlOpt: { style: 'SMALL', position: 'TOP_LEFT' }, panControl: false, scrollwheel: false
+            });
+            // add address markers
+            map.addMarker({
+                lat: 47.003670, lng: 28.907089, title: 'Chisinau head quarter',
+                infoWindow: { content: '<p>You can add your address 1 here</p>' }
+            });
+
+        });
+    </script>
+    <!-- End Google Map JavaScript -->
+
+    <!-- Contact Form Js -->
+    <script type="text/javascript">
+        // contact form js
+        jQuery(document).ready(function ($) {
+            $("#ajax-contact-form").submit(function () {
+                var str = $(this).serialize();
+                $.ajax({
+                    type: "POST",
+                    url: "inc/contact-process.php",
+                    data: str,
+                    success: function (msg) {
+                        // Message Sent? Show the 'Thank You' message and hide the form
+                        if (msg == 'OK') {
+                            result = '<div class="notification_ok">Your message has been sent. Thank you!</div>';
+                            $("#fields").hide();
+                            setTimeout("location.reload(true);", 7000);
+                        } else {
+                            result = msg;
+                        }
+                        $('#note').html(result);
+                    }
+                });
+                return false;
+            });
+        });
+    </script>
+    <!-- End Contact -->
+
+    <!-- Start Style Switcher -->
+    <script src="js/styleswitcher.js"></script>
+    <div class="switcher"></div><!-- Div Contain Options -->
+    <!-- End Style Switcher -->
+
+</body>
+
+</html>

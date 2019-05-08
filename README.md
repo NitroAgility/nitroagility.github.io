@@ -3,9 +3,20 @@ nitro-website
 
 NIC ToDo:
 - NITRO
-    - Publish website on a temporary link
-    - Complete the HTML structure of the other pages
-    - Add list of trainings
+    - Credits
+        - Create the credit page
+        - Link the credit page to the footer
+    - Use cases
+        - Integrate the banner image for each use case
+    - Approach
+        - Integrate content
+    - Training
+        - Integrate content
+        - Add list of trainings
+    - Services
+        - Integrate new icons
+        - Create one page for each services
+    - Configure Google Map
     - Configure Google Analytics
     - Add cookies & GDPR pages and acceptance popup
     - Generate the NGT version of the webiste (remember to change logo and social links)
