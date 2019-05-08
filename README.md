@@ -3,11 +3,8 @@ nitro-website
 
 NIC ToDo:
 - NITRO
-    - Services
-        - Create one page for each services
     - Configure Google Analytics
     - Add cookies & GDPR pages and acceptance popup
-    - Generate the NGT version of the webiste (remember to change logo and social links)
 - ETS
     - Integrate the chat for HubSpot
     - Configure Google Analytics

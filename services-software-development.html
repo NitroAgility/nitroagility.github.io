@@ -1,0 +1,33 @@
+---
+layout: default-content-page
+title: Software Development
+key: 
+---
+<!-- Start main content -->
+<div class="container main-content clearfix">
+    <!-- Start Sidebar Widgets -->
+    <div class="five columns sidebar bottom-3">
+        <!-- Categories Widget -->
+        <div class="widget categories">
+            <h3 class="title bottom-1">Topics</h3><!-- Title Widget -->
+            <ul class="arrow-list">
+                {% for topic in site.data.services-software-development.topics %}
+                <li>{{ topic }}</li>
+                {% endfor %}
+            </ul><!-- End arrow-list -->
+        </div>
+        <!-- End -->
+    </div><!-- End Sidebar Widgets -->
+    <!-- Start Posts -->
+    <div class="eleven columns bottom-3">
+        <!-- ==================== Single Post ==================== -->
+        <div class="post single style-1">
+            <h3 class="title bottom-1">{{ site.data.services-software-development.title }}</h3><!-- Title Post -->
+            <div class="post-content">
+                {{ site.data.services-software-development.content }}
+            </div><!-- End post-content -->
+        </div>
+        <!-- ==================== End Single Post  ==================== -->
+    </div><!-- End Posts -->
+    <div class="clearfix"></div>
+</div><!-- <<< End Container >>> -->

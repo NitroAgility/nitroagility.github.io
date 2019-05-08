@@ -28,10 +28,10 @@ key: services
     {% for service in site.data.services.services %}
     <div class="one-third column">
       <div class="item active bottom-4">
-        <div class="circle float-left"><a href="#"><i class="icon-link"></i></a></div>
+        <div class="circle float-left"><a href="{{ service.url }}"><i class="icon-link"></i></a></div>
         <div class="data float-right">
           <h4><a href="{{ service.url }}">{{ service.title }}</a></h4>
-          <p>{{ service.description }}</p>
+          <p><a href="{{ service.url }}">{{ service.description }}</a></p>
         </div>
       </div>
     </div><!-- End item -->
