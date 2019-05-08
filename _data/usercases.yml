@@ -26,7 +26,7 @@ mobile_web:
   story:
     title: SaaS product accessibile via Web and Mobile
     image: images/img/blog/single/image-1-2.jpg
-    content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    content: <p>One of our clients needed to build a saas solution, their users required the platform to be accessible  via web and  mobile devices. We helped the client with the initial requirements gathering through to the development and delivery for the application.<br/><br/>To implement the solution, we used React for the web and React Native for the Mobile application.</p>
 data_platform:
   agile_delivery:
     - Scrum & Daily Standup
@@ -48,7 +48,7 @@ data_platform:
   story:
     title: Data Platfrom
     image: images/img/blog/single/image-1-2.jpg
-    content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    content: <p>Like many companies, one of our clients needed to re-think their corporate processes and related data strategy. We worked with our client to advise and define their new data platform architecture that could meet the demands of their data strategy.<br/><br/>To implement the solution, we on boarded Apache Kafka and Apache Spark.  </p>
 cloud_solution:
   agile_delivery:
     - Scrum & Daily Standup
@@ -63,9 +63,11 @@ cloud_solution:
   skills:
     - AWS
     - NetCore
+    - Node.js
     - Kubernetes
     - RabbitMQ
     - SQL Server
+    - MongoDB
     - Redis
     - Terraform & Ansible
     - Team City
@@ -73,7 +75,7 @@ cloud_solution:
   story:
     title: Cloud Solution
     image: images/img/blog/single/image-1-2.jpg
-    content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    content: <p>We helped our client to migrate their current tech stack on cloud, whilst onboarding Microservices Architecture.</br></br>To implement this solution, we conducted architecture design workshops and selected AWS, Node.Js, NetCore and Kubernetes. Moreover,  we implemented  infrastructure as Code (IaC) using Terraform and Ansible.</p>
 iot:
   agile_delivery:
     - Scrum & Daily Standup
@@ -96,4 +98,4 @@ iot:
   story:
     title: IoT
     image: images/img/blog/single/image-1-2.jpg
-    content: Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+    content: <p>We often support start-ups and collaborate with universities and this was the case with one of our clients who need to  research and design and develop  connected devices for use within the agricultural sector.<br/><br/>We helped to innovate and implement their IoT solution using Node.Js, Mongodb, AWS, ActiveMQ and Raspberry Pi.</p>

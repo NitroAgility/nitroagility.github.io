@@ -27,7 +27,7 @@ use_cases:
     alt_image: usecase_data_platform
     url: usecase-data-platform.html
   - title: Cloud Solution
-    description: Developed an AWS cloud ready application implemented using a microservices architecture
+    description: AWS cloud migration and microservices architecture.
     image: images/use_cases/cloud_solution.png
     alt_image: usecase_cloud_solution
     url: usecase-cloud-solution.html
