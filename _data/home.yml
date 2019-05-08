@@ -23,7 +23,7 @@ use_cases:
     url: usecase-mobile-web.html
   - title: Data Platform
     description: Data ingestion platform implemented using an event first approach.
-    image: images/use_cases/data_platforms.png
+    image: images/use_cases/data_platform.png
     alt_image: usecase_data_platform
     url: usecase-data-platform.html
   - title: Cloud Solution

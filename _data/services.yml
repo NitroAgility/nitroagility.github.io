@@ -7,32 +7,32 @@ why_us:
   - xxxx xxxx xxxx xxxx xxxx
 services:
   - title: Agile Delivery
-    description: Project and Product delivery.
+    description: Feel connected and in control of your project riducing risk and time to delivery.
     image: images/services/agile-delivery.png
     alt_image: agile-delivery
     url:
   - title: Software Development
-    description: Bespoke software development.
+    description: We’ll build evolve and support your software solutions using either open source and off the shelf technology.
     image: images/services/software-development.png
     alt_image: software-development
     url:
   - title: Data Solutions
-    description: Apache echo-system.
+    description: We’ll help you to develop, deploy and manage big data infrastructure, environments and tooling 
     image: images/services/data-solutions.png
     alt_image: data-solutions
     url:
   - title: DevOps
-    description: DevOps culture and implementation.
+    description: Let us help your teams to embrace automation, CI/CD and cutting edge tooling.
     image: images/services/devops.png
     alt_image: devops
     url:
   - title: Cloud Services
-    description: Journey to cloud and Microservices.
+    description: Any journey to cloud-ready platforms can become a daunting task. We’ll advise and support you to implement the appropriate multi-cloud solutions. 
     image: images/services/cloud-services.png
     alt_image: cloud-services
     url:
   - title: Trainings
-    description: Bespoke trainings.
+    description: Technical training forms a large part of our service, we have provided bespoke training solutions to many enterprise level clients.
     image: images/services/trainings.png
     alt_image: trainings
     url:
