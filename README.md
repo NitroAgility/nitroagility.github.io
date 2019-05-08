@@ -3,9 +3,8 @@ nitro-website
 
 NIC ToDo:
 - NITRO
-    - Credits
-        - Create the credit page
-        - Link the credit page to the footer
+    - Social
+        - Link
     - Use cases
         - Integrate the banner image for each use case
     - Approach
