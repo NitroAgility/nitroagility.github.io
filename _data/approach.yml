@@ -1,16 +1,16 @@
 items:
-  - title: Collaboration and onboarding
+  - title: Collaboration and Onboarding
     content: Nitro Agility services integrate seamlessly into your organisational structure, We can advise on project
                 tooling, delivery methodology or indeed work with you to integrate your businesses delivery practices
                 into our service offering. Our transparent and consistent approach to measuring project deliverables and
                 related effort will ensure your projects are delivered to the highest standards.
-  - title: Project estimation and scoping
+  - title: Project Estimation and Scoping
     content: Nitro Agility will provide a Solutions Architect who will work with you and your teams to define
                 technical solutions to meet your business goals. Our team will document and review your tech
                 requirements, then advise on how best to build and implement your required technical solution.
 
 strategy:
-    title: 'The <span class="color">Nitro Agility</span> development strategy includes:'
+    title: 'The <span class="color">Nitro Agility</span> delivery strategy includes:'
     items:
     - title: Technical Analysis Phase
       content: We’ll gather the requirements for your application. Study of any existing applications already developed for your company and establish a common vocabulary and learn about your business processes. Nitro Agility will then estimate the engineering hours needed to develop the application and provide a written business proposal.

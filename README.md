@@ -3,19 +3,8 @@ nitro-website
 
 NIC ToDo:
 - NITRO
-    - Social
-        - Link
-    - Use cases
-        - Integrate the banner image for each use case
-    - Approach
-        - Integrate content
-    - Training
-        - Integrate content
-        - Add list of trainings
     - Services
-        - Integrate new icons
         - Create one page for each services
-    - Configure Google Map
     - Configure Google Analytics
     - Add cookies & GDPR pages and acceptance popup
     - Generate the NGT version of the webiste (remember to change logo and social links)

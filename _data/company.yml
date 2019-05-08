@@ -5,8 +5,5 @@ contact_details:
   email: info@nitroagility.com
 social:
   - type: linkedin
-    icon: social_icon-twitter
-    address:
-  - type: twitter
     icon: social_icon-linkedin
-    address: 
+    address: https://www.linkedin.com/company/5321109
