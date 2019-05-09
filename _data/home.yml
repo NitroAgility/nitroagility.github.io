@@ -20,19 +20,19 @@ use_cases:
     description: SaaS platform accessibile via web and mobile.
     image: images/use_cases/mobile_app.png
     alt_image: mobile_web
-    url: usecase-mobile-web.html
+    url: usecase-mobile-web
   - title: Data Platform
     description: Data ingestion platform implemented using an event first approach.
     image: images/use_cases/data_platform.png
     alt_image: usecase_data_platform
-    url: usecase-data-platform.html
+    url: usecase-data-platform
   - title: Cloud Solution
     description: AWS cloud migration and microservices architecture.
     image: images/use_cases/cloud_solution.png
     alt_image: usecase_cloud_solution
-    url: usecase-cloud-solution.html
+    url: usecase-cloud-solution
   - title: IoT
     description: IoT device to support agricolture.
     image: images/use_cases/iot.png
     alt_image: usecase_iot
-    url: usecase-iot.html
+    url: usecase-iot
