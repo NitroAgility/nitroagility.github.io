@@ -10,29 +10,29 @@ services:
     description: Feel connected and in control of your project riducing risk and time to delivery.
     image: images/services/agile-delivery.png
     alt_image: agile-delivery
-    url: services-agile-delivery
+    url: services-agile-delivery.html
   - title: Software Development
     description: We’ll build evolve and support your software solutions using either open source and off the shelf technology.
     image: images/services/software-development.png
     alt_image: software-development
-    url: services-software-development
+    url: services-software-development.html
   - title: Data Solutions
     description: We’ll help you to develop, deploy and manage big data infrastructure, environments and tooling 
     image: images/services/data-solutions.png
     alt_image: data-solutions
-    url: services-data-solutions
+    url: services-data-solutions.html
   - title: DevOps
     description: Let us help your teams to embrace automation, CI/CD and cutting edge tooling.
     image: images/services/devops.png
     alt_image: devops
-    url: services-devops
+    url: services-devops.html
   - title: Cloud Services
     description: Any journey to cloud-ready platforms can become a daunting task. We’ll advise and support you to implement the appropriate multi-cloud solutions. 
     image: images/services/cloud-services.png
     alt_image: cloud-services
-    url: services-cloud-services
+    url: services-cloud-services.html
   - title: Trainings
     description: Technical training forms a large part of our service, we have provided bespoke training solutions to many enterprise level clients.
     image: images/services/trainings.png
     alt_image: trainings
-    url: trainings
+    url: trainings.html
