@@ -285,11 +285,11 @@ header.style-3 .navigation ul li ul {
 
 .isotope,
 .isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-     -moz-transition-duration: 0.8s;
-      -ms-transition-duration: 0.8s;
-       -o-transition-duration: 0.8s;
-          transition-duration: 0.8s;
+  -webkit-transition-duration: 0.0s;
+     -moz-transition-duration: 0.0s;
+      -ms-transition-duration: 0.0s;
+       -o-transition-duration: 0.0s;
+          transition-duration: 0.0s;
 }
 
 .isotope {
