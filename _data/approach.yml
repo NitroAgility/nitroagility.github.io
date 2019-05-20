@@ -1,19 +1,19 @@
 items:
   - title: Collaboration and Onboarding
-    content: Next Generation Team services integrate seamlessly into your organisational structure, We can advise on project
+    content: Nitro Agility services integrate seamlessly into your organisational structure, We can advise on project
                 tooling, delivery methodology or indeed work with you to integrate your businesses delivery practices
                 into our service offering. Our transparent and consistent approach to measuring project deliverables and
                 related effort will ensure your projects are delivered to the highest standards.
   - title: Project Estimation and Scoping
-    content: Next Generation Team will provide a Solutions Architect who will work with you and your teams to define
+    content: Nitro Agility will provide a Solutions Architect who will work with you and your teams to define
                 technical solutions to meet your business goals. Our team will document and review your tech
                 requirements, then advise on how best to build and implement your required technical solution.
 
 strategy:
-    title: 'The <span class="color">Next Generation Team</span> delivery strategy includes:'
+    title: 'The <span class="color">Nitro Agility</span> delivery strategy includes:'
     items:
     - title: Technical Analysis Phase
-      content: We’ll gather the requirements for your application. Study of any existing applications already developed for your company and establish a common vocabulary and learn about your business processes. Next Generation Team will then estimate the engineering hours needed to develop the application and provide a written business proposal.
+      content: We’ll gather the requirements for your application. Study of any existing applications already developed for your company and establish a common vocabulary and learn about your business processes. Nitro Agility will then estimate the engineering hours needed to develop the application and provide a written business proposal.
     - title: Application Architecture Design
       content: We’ll define your solution via diagrams and screen mock-ups etc.. Defining application operational and user flows, hosting and application architecture that will encompass back-office services needed for the application to operate.
     - title: Agile Delivery
@@ -21,4 +21,4 @@ strategy:
     - title: Managing the application
       content: We also assist to provision/ host the application on the cloud according to your requirements. Also, this step ensures that the application is managed properly by fault testing and ensuring high availability. 
     - title: Hand over
-      content: Next Generation Team is focused on ensuring that any apps that we deliver will be built to ensure Security, scalability, maintainability and resiliency. Our Solutions Architects provide expertise in software engineering, we embed clean code architecture and help you to implement your source code in the right way. Moreover, Our commercial agreements, internal processes and CI expertise will provide assurance that source code and business IP is protected.
+      content: Nitro Agility is focused on ensuring that any apps that we deliver will be built to ensure Security, scalability, maintainability and resiliency. Our Solutions Architects provide expertise in software engineering, we embed clean code architecture and help you to implement your source code in the right way. Moreover, Our commercial agreements, internal processes and CI expertise will provide assurance that source code and business IP is protected.
