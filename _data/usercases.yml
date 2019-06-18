@@ -46,7 +46,7 @@ data_platform:
     - Jenkins
     - JFrog
   story:
-    title: Data Platfrom
+    title: Data Platform
     image: images/img/blog/single/image-1-2.jpg
     content: <p>Like many companies, one of our clients needed to re-think their corporate processes and related data strategy. We worked with our client to advise and define their new data platform architecture that could meet the demands of their data strategy.<br/><br/>To implement the solution, we on boarded Apache Kafka and Apache Spark.  </p>
 cloud_solution:

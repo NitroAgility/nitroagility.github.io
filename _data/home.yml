@@ -32,7 +32,7 @@ use_cases:
     alt_image: usecase_cloud_solution
     url: usecase-cloud-solution.html
   - title: IoT
-    description: IoT device to support agricolture.
+    description: IoT device to support agriculture.
     image: images/use_cases/iot.png
     alt_image: usecase_iot
     url: usecase-iot.html
