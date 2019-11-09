@@ -98,4 +98,4 @@ iot:
   story:
     title: IoT
     image: images/img/blog/single/image-1-2.jpg
-    content: <p>We often support start-ups and collaborate with universities and this was the case with one of our clients who need to  research and design and develop  connected devices for use within the agricultural sector.<br/><br/>We helped to innovate and implement their IoT solution using Node.Js, Mongodb, AWS, ActiveMQ and Raspberry Pi.</p>
+    content: <p>We often support start-ups and also collaborate with universities, this was the case with one of our clients who needed to research, design and develop connected devices for use within the agricultural sector.<br/><br/>We helped them to innovate and implement their IoT solution using Node.Js, Mongodb, AWS, ActiveMQ and Raspberry Pi.</p>
