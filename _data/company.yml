@@ -1,8 +1,12 @@
 name: Nitro Agility
 about_us: Our team of technology professionals are here to help. Contact us to find out how our team of technology experts can work with you to accelerate the delivery of your technology initiatives. 
 contact_details:
-  address: Chisinau, Moldova
-  email: info@nitroagility.com
+  italy:
+    address: Via Lucana 259, 75100, Matera, Italy
+    email-info: info@nitroagility.com
+    email-sales: sales@nitroagility.com
+  moldova:
+    address: Chisinau, Moldova
 social:
   - type: linkedin
     icon: social_icon-linkedin

@@ -35,4 +35,4 @@ services:
     description: Technical training forms a large part of our service, we have provided bespoke training solutions to many enterprise level clients.
     image: images/services/trainings.png
     alt_image: trainings
-    url: trainings.html
+    url: https://www.nitroacademy.it
