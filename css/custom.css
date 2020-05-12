@@ -22,5 +22,11 @@
 
 /* this logo width & height , you can change it depend on your logo */
 .logo img {
-	height:60px;
+  height: 60px;
+}
+
+@media screen and (max-width: 767px) {
+  .banner {
+    height: 30vh;
+  }
 }
