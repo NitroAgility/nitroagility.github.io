@@ -1,7 +1,7 @@
 /*
 * Theme Name: Invention
 * Theme URI: http://www.jozoor.com
-* Description: Invention Theme for corporate and creative sites, responsive and clean layout, more than color skins
+* Description: Our team of technology professionals are here to help. Contact us to find out how our team of technology experts can work with you to accelerate the delivery of your technology initiatives.
 * Author: Jozoor team
 * Author URI: http://www.jozoor.com
 * Version: 1.0

@@ -1,7 +1,7 @@
 /*
 * Theme Name: Invention
 * Theme URI: http://www.jozoor.com
-* Description: Invention Theme for corporate and creative sites, responsive and clean layout, more than color skins
+* Description: Our team of technology professionals are here to help. Contact us to find out how our team of technology experts can work with you to accelerate the delivery of your technology initiatives.
 * Author: Jozoor team
 * Author URI: http://www.jozoor.com
 * Version: 1.0
@@ -40,22 +40,22 @@ $('.slidewrap').carousel({
 });
 
 $('.slidewrap1').carousel({ 
-namespace: "carousel1", // Defaults to “carousel”.
+namespace: "carousel1", // Defaults to ï¿½carouselï¿½.
 speed: 600 // ms.
 })
 
 $('.slidewrap2').carousel({ 
-namespace: "carousel2", // Defaults to “carousel”.
+namespace: "carousel2", // Defaults to ï¿½carouselï¿½.
 speed: 600 // ms.
 })
 
 $('.slidewrap3').carousel({ 
-namespace: "carousel3", // Defaults to “carousel”.
+namespace: "carousel3", // Defaults to ï¿½carouselï¿½.
 speed: 600 // ms.
 })
 
 $('.slidewrap4').carousel({ 
-namespace: "carousel4", // Defaults to “carousel”.
+namespace: "carousel4", // Defaults to ï¿½carouselï¿½.
 speed: 600 // ms.
 })
 
